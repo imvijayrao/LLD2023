@@ -97,7 +97,7 @@ public class Student {
 
         public Student build() throws InvalidArgumentException {
             if(!validate()){
-                throw new InvalidArgumentException();
+                throw new InvalidArgumentException().Invalidphonenumer();
             }
             System.out.println("New object is Assigned");
             return new Student(this);
