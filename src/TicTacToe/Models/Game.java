@@ -32,7 +32,39 @@ public class Game {
         return new Builder();
     }
 
+    public void printBoard() {
+        board.printBoard();
+    }
 
+    public void makemove(){
+        Player player = players.get(nextPlayerIndex);
+        Cell cell = player.makemove(board);
+        Move move = new Move(cell, player);
+        moves.add(move);
+
+        if(checkWinner(move, board)){
+            gameState = GameState.SUCCESS;
+            winner = player;
+            return;
+        }
+
+        if(moves.size() == board.getDimension()*board.getDimension()){
+            gameState = GameState.DRAW;
+            return;
+        }
+
+        nextPlayerIndex++;
+        nextPlayerIndex = nextPlayerIndex%players.size();
+    }
+
+    private boolean checkWinner(Move move, Board board) {
+        for(Winningstrategy winningstrategy: winningstrategies){
+            if(winningstrategy.checkWinner(board,move)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     public static class Builder {
         private List<Player> players;
