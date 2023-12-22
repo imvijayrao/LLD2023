@@ -1,6 +1,9 @@
 package TicTacToe.Apprunner;
 
 import TicTacToe.Models.*;
+import TicTacToe.WinningStrategy.ColwinningStrategy;
+import TicTacToe.WinningStrategy.DiagonalwinningStrategy;
+import TicTacToe.WinningStrategy.RowwinningStrategy;
 import TicTacToe.WinningStrategy.Winningstrategy;
 import TicTacToe.controller.GameController;
 import TicTacToe.exceptions.DuplicateSymbolException;
@@ -21,6 +24,10 @@ public class App {
         Playerlist.add(new Player('X', "Vijay", 1, Playertype.HUMAN));
         Playerlist.add(new Bot('O', "GPT3.5", 2, Playertype.BOT, BotDifficultyLevel.EASY));
 
+        winningstrategies.add(new RowwinningStrategy());
+        winningstrategies.add(new ColwinningStrategy());
+        winningstrategies.add(new DiagonalwinningStrategy());
+
         Game game = gameController.startGame(dimension, Playerlist, winningstrategies);
         while(game.getGameState().equals(GameState.IN_PROG)){
             game.printBoard();
@@ -28,11 +35,12 @@ public class App {
         }
 
         if(GameState.SUCCESS.equals(game.getGameState())){
+            game.printBoard();
             System.out.println(game.getWinner().getName()+", You have won the Game");
         }
         if(GameState.DRAW.equals(game.getGameState())){
+            game.printBoard();
             System.out.println("-- Match tied --");
         }
-
     }
 }
