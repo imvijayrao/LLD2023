@@ -6,29 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3491fff1-3402-439d-a5e9-f747579b0c0e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Apprunner/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Apprunner/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/BotDifficultyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/BotDifficultyLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Cellstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Cellstate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Playertype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Playertype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/WinningStrategy/ColwinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/WinningStrategy/ColwinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/WinningStrategy/DiagonalwinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/WinningStrategy/DiagonalwinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/WinningStrategy/RowwinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/WinningStrategy/RowwinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/WinningStrategy/Winningstrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/WinningStrategy/Winningstrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/botplayingStrategy/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/botplayingStrategy/BotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/botplayingStrategy/BotPlayingStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/botplayingStrategy/BotPlayingStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/botplayingStrategy/EasyBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/botplayingStrategy/EasyBotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/botplayingStrategy/MediumBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/botplayingStrategy/MediumBotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/exceptions/DuplicateSymbolException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/exceptions/DuplicateSymbolException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/exceptions/MorethanOneBotException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/exceptions/MorethanOneBotException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/exceptions/PlayerCountMismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/exceptions/PlayerCountMismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_pattern/Prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_pattern/Prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_pattern/Prototype/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_pattern/Prototype/IntelligentStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_pattern/Prototype/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_pattern/Prototype/StudentPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_pattern/Prototype/StudentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_pattern/Prototype/StudentRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +46,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.Design_pattern.Prototype.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -77,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +68,7 @@
       <recent name="TicTacToe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Design_pattern.Prototype.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Case_study.TicTacToe.Apprunner.App" />
       <module name="LLD2023" />
@@ -106,6 +88,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Design_pattern.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Design_pattern.Prototype.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_pattern.Prototype.Client" />
+      <module name="LLD2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Design_pattern.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Design_pattern.Prototype.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
@@ -184,11 +180,16 @@
       <workItem from="1703228578578" duration="2369000" />
       <workItem from="1703392144448" duration="856000" />
       <workItem from="1703481853363" duration="2563000" />
-      <workItem from="1703682439751" duration="7119000" />
+      <workItem from="1703682439751" duration="7681000" />
+      <workItem from="1703693431401" duration="409000" />
+      <workItem from="1703760531390" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="SHELL" value="/usr/bin/bash" />
+    </envs>
     <option name="startingDirectory" value="$USER_HOME$" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

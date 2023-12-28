@@ -1,6 +1,6 @@
 package Design_pattern.Prototype;
 
-public class Student implements Create_Prototype{
+public class StudentPrototype implements Create_Prototype{
     private int id;
     int age;
     String name;
@@ -56,11 +56,11 @@ public class Student implements Create_Prototype{
         this.batchName = batchName;
     }
 
-    public Student(){
+    public StudentPrototype(){
 
     }
 
-    public Student(Student student){
+    public StudentPrototype(StudentPrototype student){
         this.id = student.id;
         this.age = student.age;
         this.psp = student.psp;
@@ -70,7 +70,7 @@ public class Student implements Create_Prototype{
     }
 
     @Override
-    public Student clone() {
-        return new Student(this);
+    public StudentPrototype clone() {
+        return new StudentPrototype(this);
     }
 }

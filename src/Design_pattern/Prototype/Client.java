@@ -2,7 +2,7 @@ package Design_pattern.Prototype;
 
 public class Client {
     public static void FillRegistry(StudentRegistry studentRegistry){
-        Student Dec22BeginnerBatch = new Student();
+        StudentPrototype Dec22BeginnerBatch = new StudentPrototype();
         Dec22BeginnerBatch.setAverageBatchPsp(92);
         Dec22BeginnerBatch.setBatchName("Dec 22 Beginner Batch");
         studentRegistry.register("Dec22BeginnerBatch", Dec22BeginnerBatch);
@@ -17,16 +17,19 @@ public class Client {
         StudentRegistry studentRegistry = new StudentRegistry();
         FillRegistry(studentRegistry);
 
-        Student vj = studentRegistry.get("Dec22BeginnerBatch").clone();
+        StudentPrototype vj = studentRegistry.get("Dec22BeginnerBatch").clone();
         vj.setName("Vijay");
         vj.setPsp(94);
         vj.setAge(23);
         vj.setId(52);
 
-        Student krishna = studentRegistry.get("intelligentStudent").clone();
+        StudentPrototype krishna = studentRegistry.get("intelligentStudent").clone();
         krishna.setName("Krishna");
         krishna.setPsp(97);
         krishna.setAge(23);
         krishna.setId(12);
+
+        System.out.println("PSP Of "+vj.getName()+" is "+vj.getPsp());
+        System.out.println("PSP Of "+krishna.getName()+" is "+krishna.getPsp());
     }
 }

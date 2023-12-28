@@ -1,6 +1,6 @@
 package Design_pattern.Prototype;
 
-public class IntelligentStudent extends Student{
+public class IntelligentStudent extends StudentPrototype {
     int iq;
 
     public int getIq() {
