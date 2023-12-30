@@ -181,13 +181,12 @@
       <workItem from="1703693431401" duration="409000" />
       <workItem from="1703760531390" duration="6139000" />
       <workItem from="1703829216524" duration="1200000" />
+      <workItem from="1703861723976" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
-    <envs>
-      <env key="SHELL" value="/usr/bin/bash" />
-    </envs>
+    <option name="passParentEnvs" value="false" />
     <option name="startingDirectory" value="$USER_HOME$" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
