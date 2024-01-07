@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -62,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Case_study.Parking_lot.models" />
       <recent name="TicTacToe" />
     </key>
   </component>
@@ -182,6 +183,9 @@
       <workItem from="1703760531390" duration="6139000" />
       <workItem from="1703829216524" duration="1200000" />
       <workItem from="1703861723976" duration="732000" />
+      <workItem from="1703938657556" duration="8112000" />
+      <workItem from="1704534959002" duration="5627000" />
+      <workItem from="1704602562912" duration="757000" />
     </task>
     <servers />
   </component>
