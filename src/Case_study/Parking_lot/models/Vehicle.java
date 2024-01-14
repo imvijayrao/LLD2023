@@ -1,9 +1,15 @@
 package Case_study.Parking_lot.models;
 
-public class Vehicle {
+public class Vehicle extends BaseModels{
     private String VehicleNumber;
     private VehicleType type;
     private String OwnerName;
+
+    public Vehicle(String vehicleNumber, VehicleType type, String ownerName) {
+        VehicleNumber = vehicleNumber;
+        this.type = type;
+        OwnerName = ownerName;
+    }
 
     public String getVehicleNumber() {
         return VehicleNumber;

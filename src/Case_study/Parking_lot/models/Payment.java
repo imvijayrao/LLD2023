@@ -2,7 +2,7 @@ package Case_study.Parking_lot.models;
 
 import java.time.LocalDateTime;
 
-public class Payment {
+public class Payment extends BaseModels{
     private Float amount;
     private int refNumber;
     private LocalDateTime time;

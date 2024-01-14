@@ -1,6 +1,6 @@
 package Case_study.Parking_lot.models;
 
-public class Operator {
+public class Operator extends BaseModels{
     private String EmpID;
     private String Name;
 

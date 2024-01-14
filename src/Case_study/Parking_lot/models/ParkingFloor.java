@@ -2,7 +2,7 @@ package Case_study.Parking_lot.models;
 
 import java.util.List;
 
-public class ParkingFloor {
+public class ParkingFloor extends BaseModels{
     private int FloorNumber;
     private List<ParkingSlot> parkingSlotList;
 

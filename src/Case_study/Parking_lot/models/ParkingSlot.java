@@ -1,6 +1,6 @@
 package Case_study.Parking_lot.models;
 
-public class ParkingSlot {
+public class ParkingSlot extends BaseModels{
     private VehicleType type;
     private ParkingStatus Status;
     private String SlotNumber;

@@ -5,7 +5,7 @@ import Case_study.Parking_lot.Strategies.BillingStrategy;
 
 import java.util.List;
 
-public class ParkingLot {
+public class ParkingLot extends BaseModels{
     private List<ParkingFloor> floors;
     private List<Gate> gates;
     private ParkingLotStatus Status;

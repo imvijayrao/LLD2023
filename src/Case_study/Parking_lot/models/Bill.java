@@ -5,7 +5,7 @@ import Case_study.Parking_lot.Strategies.BillingStrategy;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class Bill {
+public class Bill extends BaseModels{
     private Ticket ticket;
     private LocalDateTime ExitTime;
     private Gate Exitgate;

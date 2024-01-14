@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3491fff1-3402-439d-a5e9-f747579b0c0e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/Strategies/AllotmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/Strategies/AllotmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Parking_lot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Parking_lot/services/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Cellstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/TicTacToe/Models/Cellstate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,35 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Design_pattern.Factory.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Design_pattern.Prototype.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vijay/Documents/LLD2023&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Design_pattern.Factory.Client.executor": "Run",
+    "Application.Design_pattern.Prototype.Client.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vj/Downloads/bookmyshow/demo/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Case_study.Parking_lot.exceptions" />
       <recent name="Case_study.Parking_lot.models" />
       <recent name="TicTacToe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Design_pattern.Factory.Client">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Case_study.TicTacToe.Apprunner.App" />
       <module name="LLD2023" />
@@ -128,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Design_pattern.Factory.Client" />
         <item itemvalue="Application.Design_pattern.Prototype.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -186,6 +199,10 @@
       <workItem from="1703938657556" duration="8112000" />
       <workItem from="1704534959002" duration="5627000" />
       <workItem from="1704602562912" duration="757000" />
+      <workItem from="1704633191748" duration="9860000" />
+      <workItem from="1704905672597" duration="1830000" />
+      <workItem from="1705215675985" duration="668000" />
+      <workItem from="1705247301762" duration="1365000" />
     </task>
     <servers />
   </component>

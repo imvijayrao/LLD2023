@@ -1,6 +1,6 @@
 package Case_study.Parking_lot.models;
 
-public class Gate {
+public class Gate extends BaseModels{
     private int GateNumber;
     private GateType gateType;
     private Operator operator;
